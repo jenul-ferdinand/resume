@@ -1,0 +1,9 @@
+# Auxillary, log, and temp files
+*.aux
+*.log
+*.out
+*.synctex.gz
+
+# Intermediate files
+*.fls
+*.fdb_latexmk

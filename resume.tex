@@ -1,0 +1,199 @@
+%-------------------------
+% Resume in Latex
+% Author : Jenul Ferdinand
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\begin{center}
+    \textbf{\Huge \scshape Jenul Ferdinand} \\ \vspace{1pt}
+    \small 0405546209 $|$ \href{mailto:x@x.com}{\underline{jenul15ferdinand@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/jenul-ferdinand}{\underline{LinkedIn}} $|$
+    \href{https://github.com/jenul-ferdinand}{\underline{GitHub}}
+\end{center}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Monash University}{Clayton, VIC}
+      {Bachelor of Computer Science (Advanced)}{In Progress}
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    % WIRED MONASH
+    \resumeSubheading
+      {Projects Co-Lead (WIRED Monash)}{April 2024 -- Present}
+      {Monash University}{Clayton, VIC}
+    \resumeItemListStart
+        \resumeItem{Lead the development and coordination of technical projects within WIRED Monash.}
+        \resumeItem{Organize and conduct workshops and events to engage members in hands-on learning experiences.}
+        \resumeItem{Mentor and guide members in project development, fostering a collaborative learning environment.}
+        \resumeItem{Collaborate with team members to brainstorm, plan, and execute innovative projects for the club.}
+        \resumeItem{Oversee project timelines, resources, and deliverables to ensure successful outcomes.}
+        \resumeItem{I have been spearheading development in both the backend and frontend with our MEAN stack.}
+        \resumeItem{\textbf{Currently working on:} MonSTAR, a refined unit reviewer for units offered at Monash University.}
+        \resumeItem{\textbf{Previously:} Served as Media Officer at WIRED (August 2023 -- Present).}
+    \resumeItemListEnd
+
+    % DIGIMAKER
+    \resumeSubheading
+      {Programming Tutor (Digimaker)}{Oct 2024 -- Present}
+      {Digimaker - Programming for Young Makers}{Melbourne, VIC}
+      \resumeItemListStart
+        \resumeItem{Teach primary school students foundational programming concepts in Java, JS, Python, C, and SmallBasic.}
+        \resumeItem{This role has improved my ability to explain complex topics in an easy-to-understand manner.}
+        \resumeItem{Provide individualized guidance and support to students, tailoring instructions to their pace and learning style.}
+        \resumeItem{Track student progress and adjust teaching methods to ensure comprehension and retention of key concepts.}
+        \resumeItem{Cultivate a positive learning environment that fosters curiosity, critical thinking, and teamwork.}
+      \resumeItemListEnd
+
+    % FERDINANDCODING
+    \resumeSubheading
+      {Comp Sci YouTube Channel}{July 2023 -- Present}
+      {\href{https://www.youtube.com/@ferdinandcoding}{@ferdinandcoding}}{Melbourne, VIC}
+      \resumeItemListStart
+            \resumeItem{Produce and publish educational videos teaching computer science concepts learned at university.}
+            \resumeItem{Simplify complex topics such as algorithms, data structures, and theory of computation for a broader audience.}
+            \resumeItem{Develop engaging content strategies to increase subscriber count and viewer engagement.}
+            \resumeItem{Interact with viewers by responding to comments and incorporating feedback into future videos.}
+            \resumeItem{Utilize video editing tools to create high-quality educational content.}
+      \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+
+        % SOLV
+        \resumeProjectHeading
+          {\textbf{\href{https://github.com/jenul-ferdinand/solv-web}{Solv}} $|$ \emph{JavaScript, Java, HTML, CSS \& SASS, Git}}{\href{https://github.com/jenul-ferdinand/solv-web}{GitHub}}
+          \resumeItemListStart
+            \resumeItem{Designed and implemented a web-based math game using JavaScript, HTML, and CSS, providing an engaging and educational experience for users.}
+            \resumeItem{Built features like real-time score updates, animations, and intuitive UI components to create an enjoyable user experience.}
+            \resumeItem{Reviewed and optimized the codebase for better performance, maintainability, and scalability.}
+          \resumeItemListEnd
+
+        % MonSTAR
+        \resumeProjectHeading
+          {\textbf{MonSTAR Project} $|$ \emph{MongoDB, Express, Angular, Node.js, Caddy, Docker, EC2, Cloudinary CDN}}{In Progress}
+          \resumeItemListStart
+            \resumeItem{Initiated the MonSTAR project at Monash University as part of WIRED Monash.}
+            \resumeItem{Applied knowledge from FIT2095 to develop a full-stack application with Node.js (Express) and Angular.}
+            \resumeItem{Deployed and integrated cloud services via AWS for efficient scalability.}
+            \resumeItem{Enhanced programming skills by tackling real-world database management, front-end design, and server-side challenges.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, JavaScript, TypeScript, HTML/CSS/SCSS, Golang, SQL} \\
+     \textbf{Frameworks}{: React, Angular, Node.js, Flask, JUnit, Material-UI, PrimeNG, ChakraUI} \\
+     \textbf{Developer Tools}{: Git, Powershell, Linux, VS Code, RegEx, Leetcode, Firebase, Google GCP, Oracale SQL Developer} \\
+     \textbf{Libraries}{: pandas, numpy, matplotlib, manim, express, socket.io, mongodb} \\
+     \textbf{Programming Concepts}{: Algorithms, Data Structures, Database Management, Full-Stack Dev, Game Dev} \\
+     \textbf{Monash Units}{: FIT1051, FIT1047, FIT2099, FIT1045, FIT1008, FIT1049, FIT3171, MAT1830, MAT1841, FIT2014, FIT2095}
+    }}
+ \end{itemize}
+
+\end{document}
