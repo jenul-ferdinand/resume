@@ -1,0 +1,42 @@
+{
+  "experiences": [
+    {
+      "companyImage": "https://placehold.co/48x48",
+      "role": "Computer Science Intern",
+      "companyName": "Hawthorn Football Club",
+      "location": "Mulgrave, VIC",
+      "startDate": "August 2025",
+      "endDate": "Present",
+      "description": [
+        "Working with the technology team to build workflow optimisation projects for the coaches and staff.",
+        "Developing an agentic pipeline with an environment setup by Google on their novel platform, Google Agentspace.",
+        "Giving AI agents access to ChampionData hosted on the Snowflake platform."
+      ]
+    },
+    {
+      "companyImage": "https://placehold.co/48x48",
+      "role": "Software Engineer",
+      "companyName": "Plandid",
+      "location": "Remote, VIC",
+      "startDate": "July 2025",
+      "endDate": "Present",
+      "description": [
+        "Developing the backend using FastAPI and SQLAlchemy for Plandid's vendor marketplace mobile application. Built for couples looking for wedding photographers, videographers, and content creators.",
+        "Implementing a GraphQL based matching system to match vendors and couples based on content style and preferences."
+      ]
+    },
+    {
+      "companyImage": "https://placehold.co/48x48",
+      "role": "Programming Tutor",
+      "companyName": "Digimaker - Programming for Young Makers",
+      "location": "Eastern Suburbs, VIC",
+      "startDate": "October 2024",
+      "endDate": "Present",
+      "description": [
+        "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools, achieving an average 90% in-class completion rate for my students.",
+        "Used supplied lesson sheets to break down core programming concepts, allowing students to independently complete each coding challenge.",
+        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, ..."
+      ]
+    }
+  ]
+}
