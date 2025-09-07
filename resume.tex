@@ -66,7 +66,7 @@
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
     \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-      \textbf{#1} & #2 \\
+      #1 & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
 }
@@ -81,7 +81,7 @@
 \newcommand{\resumeProjectHeading}[2]{
     \item
     \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
-      \small#1 & #2 \\
+      #1 & #2 \\
     \end{tabular*}\vspace{-7pt}
 }
 
@@ -122,17 +122,19 @@
 	\hfill
 	\resumeSubHeadingListStart
 	
-		% SOLV
+		% ! Student Reporting System
 		\resumeProjectHeading 
-			{\textbf{Student Reporting System for Digimaker} $|$ \emph{Google Apps Script, HTML, CSS, JavaScript}}{}
+			{Student Reporting System for Digimaker}{\href{https://drive.google.com/file/d/1GA_XUsiCumPGTpl7DrzRgkQoBFumywfp/view?usp=drive_link}{\textit{\underline{Link}}}}
 			\resumeItemListStart
-				\resumeItem{Architected \& implemented an automated system using Google Apps Script that allows teachers at Digimaker across 50+ schools to give weekly feedback for their students, and at the end of the term generating high quality reports for all students enrolled in the program.}
+				\resumeItem{Architected \& implemented an automated system within the Google Apps Script platform using HTML, CSS and JavaScript that allows teachers at Digimaker across 50+ schools to give weekly feedback for their students, and at the end of the term generating high quality reports for all students enrolled in the program.}
 				\resumeItem{Worked around the limitations of the technology to offer a zero-cost solution to student reporting for the company.}
+        \resumeItem{Optimised execution times and code quality by applying functional programming concepts learnt through my degree.}
+        \resumeItem{Designed and hosted a web application using Google Apps Script to present a clear and accessible interface for adminstrators.}
 			\resumeItemListEnd
 		
-		% MonSTAR
+		% ! MonSTAR
 		\resumeProjectHeading 
-			{\textbf{MonSTAR} $|$ \emph{MongoDB, Express, Angular, ngx-graph, Node.js, Caddy, Docker, Akamai Cloud, Cloudinary CDN}}{\href{https://monstar.wired.org.au}{\textit{\underline{Link}}}}
+			{MonSTAR}{\href{https://monstar.wired.org.au}{\textit{\underline{Link}}}}
 			\resumeItemListStart
 				\resumeItem{An accessible web application built for Monash University students to browse and review classes to take. Currently sitting at over 200+ unique reviews given by students across numerous faculties.}
 				\resumeItem{Developed the backend using Node.js, Express, and MongoDB, implementing Google OAuth and RESTful API endpoints.}
@@ -147,7 +149,17 @@
 \section{\textbf{WORK HISTORY}}
   \hfill
   \resumeSubHeadingListStart
-	  % DIGIMAKER
+	  % ! Computer Science Intern - Hawthorn FC
+	  \resumeSubheading
+      {Computer Science Intern}{August 2025 -- Present}
+      {Hawthorn Football Club}{Mulgrave, VIC}
+      \resumeItemListStart
+      \resumeItem{Working with the technology team to build workflow optimisation projects for the coaches and staff.}
+      \resumeItem{Developing an agentic pipeline with an environment setup by Google on their novel platform, Google Agentspace.}
+      \resumeItem{Giving AI agents access to ChampionData hosted on the Snowflake platform.}
+      \resumeItemListEnd
+
+	  % ! Software Engineer - Plandid
 	  \resumeSubheading
 		  {Software Engineer}{July 2025 -- Present}
 		  {Plandid}{Remote, VIC}
@@ -155,7 +167,8 @@
 		  \resumeItem{Developing the backend using FastAPI and SQLAlchemy for Plandid's vendor marketplace mobile application. Built for couples looking for wedding photographers, videographers, and content creators.}
 		  \resumeItem{Implementing a GraphQL based matching system to match vendors and couples based on content style and preferences.}
 	  \resumeItemListEnd
-    % DIGIMAKER
+
+    % ! Programming Tutor - Digimaker
     \resumeSubheading
       {Programming Tutor}{October 2024 -- Present}
       {Digimaker - Programming for Young Makers}{Eastern Suburbs, VIC}
@@ -170,23 +183,44 @@
 \section{\textbf{VOLUNTEERING}}
 	\hfill
 	\resumeSubHeadingListStart
-		% WIRED MONASH
+    % ! Monash Assistive Tech Team
+    \resumeSubheading
+    {More Than Words Project Team Member}{August 2025 - Present}
+    {Monash Assistive Tech Team}{Clayton, VIC}
+      \resumeItemListStart
+        \resumeItem{A student-led team designing open-source hardware and software that supports the daily lives of people with disabilities with community, care and creativity.}
+        \resumeItem{More Than Words is a project that aims to support neurodivergent individuals in personal relationship by developing AI tools that enhance communication. It learns from expressive non-verbal cues like emojis, GIFs, and music, and later expands to text and tone.}
+        \resumeItem{Working with a team of students, being led by a PhD candidate in the Monash Emodied Visualisation group.}
+      \resumeItemListEnd
+
+    % ! Monash Connected Autonomous Vehicle
+    \resumeSubheading
+    {Software Engineer}{August 2025 -- Present}
+    {Monash Connected Autonomous Vehicle}{Clayton, VIC}
+      \resumeItemListStart
+        \resumeItem{MCAV is a premiere engineering student team developing autonomous vehicle and intelligent transport technologies, from Monash University.}
+        \resumeItem{My role is within the Urban Autonomy team, working with software and hardware R\&D to achieve SAE Level 4 autonomy with MCAV's StreetDrone Renault Twizy vehicle.}
+      \resumeItemListEnd
+
+		% ! WIRED (Faculty of Information Technology)
 		\resumeSubheading
-		{Projects Lead}{April 2024 -- Present}
+		{Project Lead}{May 2024 -- June 2025}
 		{Faculty of Information Technology Society (WIRED Monash)}{Clayton, VIC}
 			\resumeItemListStart
-				\resumeItem{Leading the development of projects that benefit the student community at my university.}
-				\resumeItem{Mentoring team members with full-stack development with a primary goal of creating a productive and inclusive team environment.}
-				\resumeItem{Oversee project timelines using Jira, defining \& monitoring issues, epics, and sprint goals.}
+				\resumeItem{Led the development of projects that benefit the student community at my university.}
+				\resumeItem{Mentored team members with full-stack development with a primary goal of creating a productive and inclusive team environment.}
+				\resumeItem{Oversaw project timelines using Jira, defining \& monitoring issues, epics, and sprint goals.}
 			\resumeItemListEnd
-		% MONASH INNOVATION GUARANTEE
+
+		% ! Monash Innovation Guarantee
 		\resumeSubheading
 		{Monash Innovation Guarantee}{January 2025}
 		{UNICEF/Hashcode}{Docklands, VIC}
 			\resumeItemListStart
-                \resumeItem{Took part in the 3-week innovation sprint offered by Monash University to conceptualise and pitch a secure SaaS architecture for UNICEF's uSupport platform. Awarded with a HD final grade.}
+        \resumeItem{Took part in the 3-week innovation sprint offered by Monash University to conceptualise and pitch a secure SaaS architecture for UNICEF's uSupport platform. Awarded with a HD final grade.}
 			\resumeItemListEnd
-		% FERDINANDCODING
+
+		% ! Computer Science Youtube Channel
 		\resumeSubheading
 		{Computer Science YouTube Channel}{July 2023 -- Present}
 		{\href{https://www.youtube.com/@ferdinandcoding}{@ferdinandcoding}}{Online}
