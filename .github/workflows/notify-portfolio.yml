@@ -6,6 +6,9 @@ on:
       paths:
         - 'data/work_experience.json'
 
+permissions:
+  contents: read
+
 jobs:
   notify-portfolio:
       runs-on: ubuntu-latest
