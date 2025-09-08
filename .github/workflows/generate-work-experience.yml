@@ -1,4 +1,4 @@
-name: Generate Work Experience JSON
+name: Generate Resume Data JSON
 
 on:
   push:
@@ -28,10 +28,13 @@ jobs:
     - name: Generate work experience JSON
       run: python scripts/generate_work_experience.py
       
+    - name: Generate volunteering JSON
+      run: python scripts/generate_volunteering.py
+      
     - name: Commit and push changes
       run: |
         git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --local user.name "github-actions[bot]"
-        git add data/work_experience.json
-        git diff --staged --quiet || git commit -m "Auto-generate data/work_experience.json from resume.tex"
+        git add data/work_experience.json data/volunteering.json
+        git diff --staged --quiet || git commit -m "Auto-generate JSON data from resume.tex"
         git push
