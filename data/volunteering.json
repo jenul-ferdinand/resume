@@ -1,0 +1,66 @@
+{
+  "experiences": [
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQEWAscBIPhVtA/company-logo_200_200/company-logo_200_200/0/1699579943825?e=1759968000&v=beta&t=l6pdwHt7gok0pbFTQYnK1-dkfXpjppYkCElZV0JGgw4",
+      "role": "More Than Words Project Team Member",
+      "companyName": "Monash Assistive Tech Team",
+      "location": "Clayton, VIC",
+      "startDate": "August 2025",
+      "endDate": "Present",
+      "description": [
+        "A student-led team designing open-source hardware and software that supports the daily lives of people with disabilities with community, care and creativity.",
+        "More Than Words is a project that aims to support neurodivergent individuals in personal relationships by developing AI tools that enhance communication. It learns from expressive non-verbal cues like emojis, GIFs, and music, and later expands to text and tone.",
+        "Working with a team of students, being led by a PhD candidate in the Monash Emodied Visualisation group."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/C560BAQFsk2EB69l49w/company-logo_200_200/company-logo_200_200/0/1678526247676?e=1759968000&v=beta&t=vAM8g3FTVtWxgRxJMw3lc6XngCSBU-aXXz5qsKF8giA",
+      "role": "Software Engineer",
+      "companyName": "Monash Connected Autonomous Vehicle",
+      "location": "Clayton, VIC",
+      "startDate": "August 2025",
+      "endDate": "Present",
+      "description": [
+        "MCAV is a premiere engineering student team developing autonomous vehicle and intelligent transport technologies, from Monash University.",
+        "My role is within the Urban Autonomy team, working with software and hardware R&D to achieve SAE Level 4 autonomy with MCAV's StreetDrone Renault Twizy vehicle."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQFtcDSYOtA4XA/company-logo_200_200/B56ZgOB2dYHsAM-/0/1752582023381/wired_monash_logo?e=1759968000&v=beta&t=nnhslsEpEdq0iyIcB9tKoForrb0v8LCpFqskonziY3U",
+      "role": "Project Lead",
+      "companyName": "Faculty of Information Technology Society (WIRED Monash)",
+      "location": "Clayton, VIC",
+      "startDate": "May 2024",
+      "endDate": "June 2025",
+      "description": [
+        "Led the development of projects that benefit the student community at my university.",
+        "Mentored team members with full-stack development with a primary goal of creating a productive and inclusive team environment.",
+        "Oversaw project timelines using Jira, defining & monitoring issues, epics, and sprint goals."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/C510BAQE5WFsvU5iicw/company-logo_200_200/company-logo_200_200/0/1631310285230?e=1759968000&v=beta&t=ayhmnKFy2GPM-Ys3kql1OsAF_DpYI1KIBVQLs4Fdn1U",
+      "role": "Monash Innovation Guarantee",
+      "companyName": "UNICEF/Hashcode",
+      "location": "Docklands, VIC",
+      "startDate": "January 2025",
+      "endDate": "Present",
+      "description": [
+        "Took part in the 3-week innovation sprint offered by Monash University to conceptualise and pitch a secure SaaS architecture for UNICEF's uSupport platform. Awarded with a HD final grade."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQGyUKaYgsO3cg/company-logo_200_200/B4EZb.zwGgGQAI-/0/1748031701722/youtube_logo?e=1759968000&v=beta&t=ulz_x8HPAv-L8Tn27uAeG7AtWw4i_GMRVwDIBfKM5ss",
+      "role": "Computer Science YouTube Channel",
+      "companyName": "@ferdinandcoding",
+      "location": "Online",
+      "startDate": "July 2023",
+      "endDate": "Present",
+      "description": [
+        "Produced educational videos on algorithms, data structures, and theoretical CS.",
+        "Grew channel to over 600 subscribers and accumulated 350K+ views.",
+        "Simplified Computer Science topics for a broad audience via short form and long form content."
+      ]
+    }
+  ]
+}
