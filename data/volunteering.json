@@ -2,7 +2,7 @@
   "experiences": [
     {
       "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQEWAscBIPhVtA/company-logo_200_200/company-logo_200_200/0/1699579943825?e=1759968000&v=beta&t=l6pdwHt7gok0pbFTQYnK1-dkfXpjppYkCElZV0JGgw4",
-      "role": "More Than Words Project Team Member",
+      "role": "Student AI/ML Developer (PhD Supervised)",
       "companyName": "Monash Assistive Tech Team",
       "location": "Clayton, VIC",
       "startDate": "August 2025",
@@ -10,12 +10,13 @@
       "description": [
         "A student-led team designing open-source hardware and software that supports the daily lives of people with disabilities with community, care and creativity.",
         "More Than Words is a project that aims to support neurodivergent individuals in personal relationships by developing AI tools that enhance communication. It learns from expressive non-verbal cues like emojis, GIFs, and music, and later expands to text and tone.",
-        "Working with a team of students, being led by a PhD candidate in the Monash Emodied Visualisation group."
+        "Working with a team of students, being led by PhD candidate Benjamin Phua from the Monash Emodied Visualisation group. Reviewing AI research papers and academic literature on machine learning approaches for emotional intelligence and communication patterns, translating theoretical concepts into practical implementation.",
+        "Building an AI application with FastAPI for the backend with an agentic pipeline using LangChain+LangGraph, and LangSmith for tracing and evaluations."
       ]
     },
     {
       "companyImage": "https://media.licdn.com/dms/image/v2/C560BAQFsk2EB69l49w/company-logo_200_200/company-logo_200_200/0/1678526247676?e=1759968000&v=beta&t=vAM8g3FTVtWxgRxJMw3lc6XngCSBU-aXXz5qsKF8giA",
-      "role": "Software Engineer",
+      "role": "Student Software Engineer",
       "companyName": "Monash Connected Autonomous Vehicle",
       "location": "Clayton, VIC",
       "startDate": "August 2025",
@@ -33,7 +34,7 @@
       "startDate": "May 2024",
       "endDate": "June 2025",
       "description": [
-        "Led the development of projects that benefit the student community at my university.",
+        "Led the development of MonSTAR which directly benefited the student community at my university.",
         "Mentored team members with full-stack development with a primary goal of creating a productive and inclusive team environment.",
         "Oversaw project timelines using Jira, defining & monitoring issues, epics, and sprint goals."
       ]
@@ -55,10 +56,10 @@
       "companyName": "@ferdinandcoding",
       "location": "Online",
       "startDate": "July 2023",
-      "endDate": "Present",
+      "endDate": "October 2024",
       "description": [
         "Produced educational videos on algorithms, data structures, and theoretical CS.",
-        "Grew channel to over 600 subscribers and accumulated 350K+ views.",
+        "Grew channel to over 700 subscribers and accumulated a total of 500K+ views.",
         "Simplified Computer Science topics for a broad audience via short form and long form content."
       ]
     }

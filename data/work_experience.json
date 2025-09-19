@@ -9,8 +9,9 @@
       "endDate": "Present",
       "description": [
         "Working with the technology team to build workflow optimisation projects for the coaches and staff.",
-        "Developing an agentic pipeline with an environment setup by Google on their novel platform, Google Agentspace.",
-        "Giving AI agents access to ChampionData hosted on the Snowflake platform."
+        "Developing an AI application with an environment setup by Google on their novel platform, Google Agentspace.",
+        "Developing AI agents with access to transactional AFL data given by ChampionData hosted on Snowflake Cloud.",
+        "Integrating customised agents and machine learning models using the Google Agent Development Kit and Vertex AI."
       ]
     },
     {
@@ -21,13 +22,16 @@
       "startDate": "July 2025",
       "endDate": "Present",
       "description": [
-        "Developing the backend using FastAPI and SQLAlchemy for Plandid's vendor marketplace mobile application. Built for couples looking for wedding photographers, videographers, and content creators.",
-        "Implementing a GraphQL based matching system to match vendors and couples based on content style and preferences."
+        "Developed the backend using FastAPI, Pydantic, and SQLAlchemy for Plandid's customer mobile app and vendor dashboard. Built for couples seeking wedding photographers, videographers, and content creators.",
+        "Architected and optimised a complex PostgreSQL database schema with 36 relational tables, implementing proper indexing strategies and query optimisation techniques that reduced average query time by 40%.",
+        "Prioritised clear separation of concerns, modularisation, and scalability with a well thought out architecture.",
+        "Implemented calendar syncing using the Google Calendar API, storing encrypted user credentials securely in our PostgreSQL database with CSRF protection.",
+        "Fetching and storing Google reviews for vendors using the Google Places API and also allowing customers to write reviews within the application."
       ]
     },
     {
       "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQExSLu8vYxa8w/company-logo_200_200/company-logo_200_200/0/1685426752001/digimaker___programming_for_kids_logo?e=1759968000&v=beta&t=IT5FTk-SWjQ680r08GteaL97eB2PbZPG1xbw9ODDOjM",
-      "role": "Programming Tutor",
+      "role": "Programming Tutor \\& Business Automation Developer",
       "companyName": "Digimaker - Programming for Young Makers",
       "location": "Eastern Suburbs, VIC",
       "startDate": "October 2024",
@@ -35,7 +39,8 @@
       "description": [
         "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools, achieving an average 90% in-class completion rate for my students.",
         "Used supplied lesson sheets to break down core programming concepts, allowing students to independently complete each coding challenge.",
-        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, ..."
+        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS ...",
+        "Developed and currently maintaining the student report generation automation. Setup Github Actions for CI/CD, with automated testing for improved maintainance and less errors."
       ]
     }
   ]
