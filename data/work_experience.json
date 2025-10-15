@@ -8,10 +8,12 @@
       "startDate": "August 2025",
       "endDate": "October 2025",
       "description": [
-        "Working with the technology team to build workflow optimisation projects for the coaches and staff.",
-        "Developing an AI application with an environment setup by Google on their novel platform, Google Agentspace.",
-        "Developing AI agents with access to transactional AFL data given by ChampionData hosted on Snowflake Cloud.",
-        "Integrating customised agents and machine learning models using the Google Agent Development Kit and Vertex AI."
+        "Worked with the technology team to build workflow optimisation projects for the coaches and staff.",
+        "Developed an AI application with an environment setup by Google on their novel platform, Google Agentspace.",
+        "Developed AI agents with access to transactional AFL data given by ChampionData hosted on Snowflake Cloud.",
+        "Integrated customised agents and machine learning models using the Google Agent Development Kit and Vertex AI.",
+        "Developed a one-shot prompt data analysis workflow built using Claude Code subagents.",
+        "Created a presentation on prompt training for the coaches outlining how to prompt LLMs effectively."
       ]
     },
     {
