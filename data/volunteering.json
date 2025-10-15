@@ -2,16 +2,17 @@
   "experiences": [
     {
       "companyImage": "https://media.licdn.com/dms/image/v2/D4E0BAQEWAscBIPhVtA/company-logo_200_200/company-logo_200_200/0/1699579943825?e=1759968000&v=beta&t=l6pdwHt7gok0pbFTQYnK1-dkfXpjppYkCElZV0JGgw4",
-      "role": "Student AI/ML Developer (PhD Supervised)",
+      "role": "AI Research & Development (PhD Supervised)",
       "companyName": "Monash Assistive Tech Team",
       "location": "Clayton, VIC",
       "startDate": "August 2025",
       "endDate": "Present",
       "description": [
         "A student-led team designing open-source hardware and software that supports the daily lives of people with disabilities with community, care and creativity.",
-        "More Than Words is a project that aims to support neurodivergent individuals in personal relationships by developing AI tools that enhance communication. It learns from expressive non-verbal cues like emojis, GIFs, and music, and later expands to text and tone.",
         "Working with a team of students, being led by PhD candidate Benjamin Phua from the Monash Emodied Visualisation group. Reviewing AI research papers and academic literature on machine learning approaches for emotional intelligence and communication patterns, translating theoretical concepts into practical implementation.",
-        "Building an AI application with FastAPI for the backend with an agentic pipeline using LangChain+LangGraph, and LangSmith for tracing and evaluations."
+        "Experimenting responsible AI systems for vulnerable communities, implementing rigorous safety measures and ethical guardrails. Following new found evaluation methodologies to ensure we follow the best practices to build comprehensive evaluation pipelines, including automated testing, AI as a judge patterns, and human-in-the-loop validation.",
+        "Building an AI application using Python and FastAPI for the backend with an agentic pipeline using LangChain+LangGraph, and LangSmith for observability.",
+        "Created emoji similarity search with embeddings using PyTorch and Sentence Transfomers."
       ]
     },
     {
@@ -23,7 +24,8 @@
       "endDate": "Present",
       "description": [
         "MCAV is a premiere engineering student team developing autonomous vehicle and intelligent transport technologies, from Monash University.",
-        "My role is within the Urban Autonomy team, working with software and hardware R&D to achieve SAE Level 4 autonomy with MCAV's StreetDrone Renault Twizy vehicle."
+        "My role is within the Urban Autonomy team, working with software and hardware R&D to achieve SAE Level 4 autonomy with MCAV's StreetDrone Renault Twizy vehicle.",
+        "Starting my computer science project partnered with this student team, making use of ROS2 simulations to create an autonomous ride-sharing mobile application built using React Native and a Rust backend with a Kafka data collection pipeline to continuously improve autonomy."
       ]
     },
     {
