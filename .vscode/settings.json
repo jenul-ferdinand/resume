@@ -1,3 +1,6 @@
 {
-    "editor.wordWrap": "bounded"
+    "editor.wordWrap": "bounded",
+    "latex-workshop.synctex.afterBuild.enabled": true,
+    "latex-workshop.view.pdf.internal.synctex.keybinding": "double-click",
+    "latex-workshop.latex.autoBuild.run": "onSave"
 }
