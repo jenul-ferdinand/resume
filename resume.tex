@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[a4paper,11pt]{article}
+\documentclass[a4paper,11pt]{extarticle}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -46,8 +46,8 @@
 
 % Sections formatting
 \titleformat{\section}{
-  \vspace{-4pt}\rmfamily\fontfamily{bch}\selectfont\scshape\raggedright\large
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+  \rmfamily\fontfamily{bch}\selectfont\raggedright\large
+}{}{0em}{\vspace{-8pt}}
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -112,19 +112,16 @@
 \end{center}
 
 %-----------EDUCATION-----------
-\section{\textbf{EDUCATION}}
-	
-	
+\section{\textbf{Education}}
 	\resumeSubHeadingListStart
-		\vspace{2pt}\item
+		\item
 		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
 			\small Bachelor of Computer Science (Advanced) from Monash University in Clayton, Victoria & In Progress
 		\end{tabular*}\vspace{-7pt}
 	\resumeSubHeadingListEnd
-\hfill
+
 %-----------PROJECTS-----------
-\section{\textbf{PROJECTS}}
-	\hfill
+\section{\textbf{Projects}}
 	\resumeSubHeadingListStart
 	
 		% ! Student Reporting System
@@ -136,6 +133,8 @@
         \resumeItem{Optimised execution times and code quality by applying functional programming concepts learnt through my degree.}
         \resumeItem{Designed and hosted a web application using Google Apps Script to present a clear and accessible interface for adminstrators.}
 			\resumeItemListEnd
+
+    \vspace{3pt}
 		
 		% ! MonSTAR
 		\resumeProjectHeading 
@@ -151,10 +150,9 @@
 			\resumeItemListEnd
 			
 	\resumeSubHeadingListEnd
-\hfill
+
 %-----------EXPERIENCE-----------
-\section{\textbf{WORK HISTORY}}
-  \hfill
+\section{\textbf{Work History}}
   \resumeSubHeadingListStart
 	  % ! Computer Science Intern - Hawthorn FC
 	  \resumeSubheading
@@ -169,6 +167,8 @@
         \resumeItem{Created a presentation on prompt training for the coaches outlining how to prompt LLMs effectively.}
       \resumeItemListEnd
 
+    \vspace{2pt}
+
 	  % ! Software Engineer - Plandid
 	  \resumeSubheading
 		  {Software Engineer}{July 2025 -- Present}
@@ -181,6 +181,8 @@
         \resumeItem{Fetching and storing Google reviews for vendors using the Google Places API and also allowing customers to write reviews within the application.}
 	    \resumeItemListEnd
 
+    \vspace{2pt}
+
     % ! Programming Tutor - Digimaker
     \resumeSubheading
       {Programming Tutor \& Business Automation Developer}{October 2024 -- Present}
@@ -192,10 +194,9 @@
         \resumeItem{Developed and currently maintaining the student report generation automation. Setup Github Actions for CI/CD, with automated testing for improved maintainance and less errors.}
       \resumeItemListEnd
   \resumeSubHeadingListEnd	
-\hfill
+
 %-----------VOLUNTEERING-----------
-\section{\textbf{VOLUNTEERING}}
-	\hfill
+\section{\textbf{Extracurricular Experiences}}
 	\resumeSubHeadingListStart
     % ! Monash Assistive Tech Team
     \resumeSubheading
@@ -209,6 +210,8 @@
         \resumeItem{Created emoji similarity search with embeddings using PyTorch and Sentence Transfomers.}
       \resumeItemListEnd
 
+    \vspace{2pt}
+
     % ! Monash Connected Autonomous Vehicle
     \resumeSubheading
     {Student Software Engineer}{August 2025 -- Present}
@@ -218,6 +221,8 @@
         \resumeItem{My role is within the Urban Autonomy team, working with software and hardware R\&D to achieve SAE Level 4 autonomy with MCAV's StreetDrone Renault Twizy vehicle.}
         \resumeItem{Starting my computer science project partnered with this student team, making use of ROS2 simulations to create an autonomous ride-sharing mobile application built using React Native and a Rust backend with a Kafka data collection pipeline to continuously improve autonomy.}
       \resumeItemListEnd
+
+    \vspace{2pt}
 
 		% ! WIRED (Faculty of Information Technology)
 		\resumeSubheading
@@ -229,6 +234,8 @@
 				\resumeItem{Oversaw project timelines using Jira, defining \& monitoring issues, epics, and sprint goals.}
 			\resumeItemListEnd
 
+    \vspace{2pt}
+
 		% ! Monash Innovation Guarantee
 		\resumeSubheading
 		{Monash Innovation Guarantee}{January 2025}
@@ -236,6 +243,8 @@
 			\resumeItemListStart
         \resumeItem{Took part in the 3-week innovation sprint offered by Monash University to conceptualise and pitch a secure SaaS architecture for UNICEF's uSupport platform. Awarded with a HD final grade.}
 			\resumeItemListEnd
+
+    \vspace{2pt}
 
 		% ! Computer Science Youtube Channel
 		\resumeSubheading
@@ -247,9 +256,9 @@
 				\resumeItem{Simplified Computer Science topics for a broad audience via short form and long form content.}
 			\resumeItemListEnd
 	\resumeSubHeadingListEnd
-\hfill
+
 %-----------LICENSES & CERTIFICATIONS----------- 
-\section{\textbf{LICENSES \& CERTIFICATIONS}}
+\section{\textbf{Licenses \& Certifications}}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{
       \item{
@@ -262,14 +271,13 @@
           \textit{LangChain} & Deep Agents with LangGraph \\[1pt]
           \textit{Accenture UK} & Developer \& Technology Job Simulation \\[1pt]
           \textit{Commonwealth Bank} & Software Engineering Job Simulation \\[1pt]
-          \textit{J.P. Morgan} & Software Engineering Job Simulation \\[1pt]
+          \textit{J.P. Morgan} & Software Engineering Job Simulation
         \end{tabularx}
       }
     }
   \end{itemize}
-
 %-----------TECHNICAL SKILLS-----------
-\section{\textbf{TECHNICAL SKILLS}}
+\section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
      \textit{Languages:}{ C, C++, C\#, Python, Go, Rust, Java, JavaScript, TypeScript, HTML/CSS/SCSS, SQL, JSX, Kotlin.} \\
