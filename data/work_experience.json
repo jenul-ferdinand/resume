@@ -1,3 +1,49 @@
 {
-  "experiences": []
+  "experiences": [
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQGo3DeZ0nd37Q/company-logo_200_200/company-logo_200_200/0/1684133720120/hawthorn_football_club_logo?e=1759968000&v=beta&t=b5DVmRl7W7riuTmVbnG28_OZZp_VEb4_v_of59ey5Iw",
+      "role": "Computer Science Intern",
+      "companyName": "Hawthorn Football Club",
+      "location": "Mulgrave, VIC",
+      "startDate": "August 2025",
+      "endDate": "October 2025",
+      "description": [
+        "Worked with the technology team to build workflow optimisation projects for the coaches and staff.",
+        "Developed an AI application with an environment setup by Google on their novel platform, Google Agentspace.",
+        "Developed AI agents with access to transactional AFL data given by ChampionData hosted on Snowflake Cloud.",
+        "Integrated customised agents and machine learning models using the Google Agent Development Kit and Vertex AI.",
+        "Developed a one-shot prompt data analysis workflow built using Claude Code subagents.",
+        "Created a presentation on prompt training for the coaches outlining how to prompt LLMs effectively."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D4D0BAQHXAE5TTxyBuw/company-logo_200_200/B4DZiDuFcmGQAQ-/0/1754556553532/plandidau_logo?e=1759968000&v=beta&t=IXoOTIG_EKZGWV55xquXdGjWQa5jwaP7Z2fTLBmPR1Q",
+      "role": "Software Engineer",
+      "companyName": "Plandid",
+      "location": "Remote, VIC",
+      "startDate": "July 2025",
+      "endDate": "Present",
+      "description": [
+        "Developed the backend using FastAPI, Pydantic, and SQLAlchemy for Plandid's customer mobile app and vendor dashboard. Built for couples seeking wedding photographers, videographers, and content creators.",
+        "Architected and optimised a complex PostgreSQL database schema with 36 relational tables, implementing proper indexing strategies and query optimisation techniques that reduced average query time by 40%.",
+        "Prioritised clear separation of concerns, modularisation, and scalability with a well thought out architecture.",
+        "Implemented calendar syncing using the Google Calendar API, storing encrypted user credentials securely in our PostgreSQL database with CSRF protection.",
+        "Fetching and storing Google reviews for vendors using the Google Places API and also allowing customers to write reviews within the application."
+      ]
+    },
+    {
+      "companyImage": "https://media.licdn.com/dms/image/v2/D560BAQExSLu8vYxa8w/company-logo_200_200/company-logo_200_200/0/1685426752001/digimaker___programming_for_kids_logo?e=1759968000&v=beta&t=IT5FTk-SWjQ680r08GteaL97eB2PbZPG1xbw9ODDOjM",
+      "role": "Programming Tutor & Business Automation Developer",
+      "companyName": "Digimaker - Programming for Young Makers",
+      "location": "Eastern Suburbs, VIC",
+      "startDate": "October 2024",
+      "endDate": "Present",
+      "description": [
+        "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools, achieving an average 90% in-class completion rate for my students.",
+        "Used supplied lesson sheets to break down core programming concepts, allowing students to independently complete each coding challenge.",
+        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS ...",
+        "Developed and currently maintaining the student report generation automation. Setup Github Actions for CI/CD, with automated testing for improved maintainance and less errors."
+      ]
+    }
+  ]
 }
