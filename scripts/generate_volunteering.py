@@ -26,8 +26,8 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
     
-    # Find the VOLUNTEERING section
-    volunteer_section_match = re.search(r'\\section\{\\textbf\{VOLUNTEERING\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
+    # Find the Extracurricular Experiences section (formerly VOLUNTEERING)
+    volunteer_section_match = re.search(r'\\section\{\\textbf\{Extracurricular Experiences\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
     
     if not volunteer_section_match:
         return []
@@ -37,7 +37,8 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
     # Pattern to match each volunteering experience entry
     # \resumeSubheading{Role}{Date Range}{Company Name}{Location}
     # Handle nested braces in company names (e.g., \href{...}{...})
-    pattern = r'\\resumeSubheading\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\s*\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
+    # Updated to handle multi-line format with whitespace/newlines
+    pattern = r'\\resumeSubheading\s+\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\s+\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}\{([^{}]*(?:\{[^{}]*\}[^{}]*)*)\}'
     
     experiences = []
     matches = re.findall(pattern, volunteer_section)

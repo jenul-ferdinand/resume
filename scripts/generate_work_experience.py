@@ -26,8 +26,8 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
     with open(file_path, 'r', encoding='utf-8') as file:
         content = file.read()
     
-    # Find the WORK HISTORY section
-    work_section_match = re.search(r'\\section\{\\textbf\{WORK HISTORY\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
+    # Find the Work History section
+    work_section_match = re.search(r'\\section\{\\textbf\{Work History\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
     
     if not work_section_match:
         return []
@@ -36,7 +36,8 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
     
     # Pattern to match each work experience entry
     # \resumeSubheading{Job Title}{Date Range}{Company Name}{Location}
-    pattern = r'\\resumeSubheading\s*\{([^}]+)\}\{([^}]+)\}\s*\{([^}]+)\}\{([^}]+)\}'
+    # Updated to handle multi-line format with whitespace/newlines
+    pattern = r'\\resumeSubheading\s+\{([^}]+)\}\{([^}]+)\}\s+\{([^}]+)\}\{([^}]+)\}'
     
     experiences = []
     matches = re.findall(pattern, work_section)
@@ -70,12 +71,21 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
             cleaned_item = re.sub(r'\\textit\{([^}]+)\}', r'\1', cleaned_item)  # Remove \textit{}
             cleaned_item = re.sub(r'\\textbf\{([^}]+)\}', r'\1', cleaned_item)  # Remove \textbf{}
             cleaned_description_items.append(cleaned_item.strip())
-        
+
+        # Clean up LaTeX commands in role, company name, and location
+        def clean_latex(text):
+            cleaned = re.sub(r'\\&', '&', text)  # Replace \& with &
+            cleaned = re.sub(r'\\%', '%', cleaned)  # Replace \% with %
+            cleaned = re.sub(r'\\textit\{([^}]+)\}', r'\1', cleaned)  # Remove \textit{}
+            cleaned = re.sub(r'\\textbf\{([^}]+)\}', r'\1', cleaned)  # Remove \textbf{}
+            cleaned = re.sub(r'\\href\{[^}]+\}\{([^}]+)\}', r'\1', cleaned)  # Remove \href{}
+            return cleaned.strip()
+
         experience = {
             "companyImage": "https://placehold.co/48x48",
-            "role": job_title.strip(),
-            "companyName": company_name.strip(),
-            "location": location.strip(),
+            "role": clean_latex(job_title),
+            "companyName": clean_latex(company_name),
+            "location": clean_latex(location),
             "startDate": start_date,
             "endDate": end_date,
             "description": cleaned_description_items
