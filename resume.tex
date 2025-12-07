@@ -20,7 +20,10 @@
 \usepackage{tabularx}
 \input{glyphtounicode}
 
-%----------FONT OPTIONS----------
+% ---------------------------------------------------------------------------- %
+%                                 FONT OPTIONS                                 %
+% ---------------------------------------------------------------------------- %
+
 \usepackage[sfdefault]{sourcesanspro}
 \usepackage{charter}
 
@@ -52,8 +55,11 @@
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
 
-%-------------------------
-% Custom commands
+
+% ---------------------------------------------------------------------------- %
+%                                CUSTOM COMMANDS                               %
+% ---------------------------------------------------------------------------- %
+
 \newcommand{\resumeItem}[1]{
   \item\small{
     {#1 \vspace{-2pt}}
@@ -90,37 +96,39 @@
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
-%-------------------------------------------
-%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% ---------------------------------------------------------------------------- %
+%                              RESUME STARTS HERE                              %
+% ---------------------------------------------------------------------------- %
 
 \begin{document}
 
-%-----------TITLE-----------
+% ----------------------------------- TITLE ---------------------------------- %
 \begin{center}
-    % Name (serif Charter, NOT bold)
+    % Name (serif Charter)
     {\rmfamily\fontfamily{bch}\selectfont\bfseries\Huge Jenul Ferdinand} \\[4pt]
     
-    % Contact info (bold sans-serif)
+    % Contact info (sans-serif)
     {\sffamily\small
     +61 405 546 209 $|$ 
     \href{mailto:jenul15ferdinand@gmail.com}{jenul15ferdinand@gmail.com} $|$ 
     \href{https://linkedin.com/in/jenul-ferdinand}{LinkedIn} $|$
     \href{https://github.com/jenul-ferdinand}{GitHub}} \\[2pt]
     
-    % Location (regular sans-serif)
-    {\sffamily\small Australian Citizen, Knoxfield, Victoria}
+    % Location (sans-serif)
+    {\sffamily\small Australian Citizen | Knoxfield, Victoria, 3180}
 \end{center}
 
-%-----------EDUCATION-----------
+% --------------------------------- EDUCATION -------------------------------- %
 \section{\textbf{Education}}
 	\resumeSubHeadingListStart
 		\item
 		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-			\small Bachelor of Computer Science (Advanced) from Monash University in Clayton, Victoria & In Progress
+			\small Bachelor of Computer Science | Monash University | Clayton Campus & Studying
 		\end{tabular*}\vspace{-7pt}
 	\resumeSubHeadingListEnd
 
-%-----------PROJECTS-----------
+% --------------------------------- PROJECTS --------------------------------- %
 \section{\textbf{Projects}}
 	\resumeSubHeadingListStart
 	
@@ -151,7 +159,7 @@
 			
 	\resumeSubHeadingListEnd
 
-%-----------EXPERIENCE-----------
+% -------------------------------- EXPERIENCE -------------------------------- %
 \section{\textbf{Work History}}
   \resumeSubHeadingListStart
 
@@ -196,10 +204,10 @@
         \resumeItem{Utilised clasp and the glcoud CLI tool for local development with git for version control.}
         \resumeItem{Setup Github Actions for CI/CD, with automated testing using Jest for improved maintainance and less errors.}
       \resumeItemListEnd
-  \resumeSubHeadingListEnd	
+  \resumeSubHeadingListEnd
 
-%-----------VOLUNTEERING-----------
-\section{\textbf{Extracurricular Experiences}}
+% ------------------------------- VOLUNTEERING ------------------------------- %
+\section{\textbf{Volunteering}}
 	\resumeSubHeadingListStart
     % ! Monash Assistive Tech Team
     \resumeSubheading
@@ -261,7 +269,7 @@
 			\resumeItemListEnd
 	\resumeSubHeadingListEnd
 
-%-----------LICENSES & CERTIFICATIONS----------- 
+% ------------------------ LICENSES AND CERTIFICATIONS ----------------------- %
 \section{\textbf{Licenses \& Certifications}}
   \begin{itemize}[leftmargin=0.15in, label={}]
     \small{
@@ -280,7 +288,7 @@
       }
     }
   \end{itemize}
-%-----------TECHNICAL SKILLS-----------
+% ----------------------------- TECHNICAL SKILLS ----------------------------- %
 \section{\textbf{Technical Skills}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
