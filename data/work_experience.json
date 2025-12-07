@@ -12,8 +12,8 @@
         "Enterprise AI integration using Google Agentspace within GCP to facilitate data analysis for AFL coaching staff.",
         "Implemented tabular RAG for transactional AFL data offered by ChampionData hosted on Snowflake Cloud.",
         "Integrated tailored AI agents and ML models using the Google Agent Development Kit (ADK) and Vertex AI.",
-        "Developed a one-shot prompt data analysis workflow built using Claude Code subagents.",
-        "Delivered a presentation on prompt engineering for coaches outlining how to prompt LLMs effectively."
+        "Delivered a presentation on prompt engineering for coaches outlining how to prompt LLMs effectively.",
+        "Developed a one-shot data analysis workflow for the data analysts built using Claude Code subagents."
       ]
     },
     {
@@ -24,27 +24,41 @@
       "startDate": "July 2025",
       "endDate": "Present",
       "description": [
-        "Developed the backend using Python, FastAPI, Pydantic, and SQLAlchemy for Plandid's customer mobile app and vendor dashboard. Built for couples seeking wedding photographers, videographers, and content creators.",
-        "Designed an optimised PostgreSQL database schema with 36 relational tables, implementing proper indexing strategies and query optimisation techniques that reduced average query time by 40%.",
-        "Prioritised clear separation of concerns, modularisation, and scalability with a well thought out architecture.",
-        "Implemented seamless calendar sync using Google Calendar API, storing encrypted user calendar data securely in the database with CSRF protection using synchronised tokens.",
-        "Fetching and storing Google reviews for vendors using the Google Places API and also allowing customers to write reviews within the application."
+        "Developed the backend using Python, FastAPI, Pydantic, and SQLAlchemy, exposing APIs to the frontend.",
+        "Designed a 40-table PostgreSQL schema with optimised indexes reducing query time by 40%.",
+        "Architected a modular backend structure to ensure strict separation of concerns and scalability.",
+        "Implemented secure Google Calendar sync with encrypted storage and CSRF protection.",
+        "Integrated Google Places API to aggregate external reviews alongside internal user reviews."
       ]
     },
     {
       "companyImage": "https://placehold.co/48x48",
-      "role": "Programming Tutor & Automation Developer",
+      "role": "Automation Developer",
+      "companyName": "Digimaker",
+      "location": "Eastern Suburbs, VIC",
+      "startDate": "March 2025",
+      "endDate": "June 2025",
+      "description": [
+        "Identified a bottleneck in the student reporting process and engineered an automation to generate PDF reports.",
+        "Wrote JavaScript code in the Google Apps Script environment for a zero-cost student reporting solution.",
+        "Optimised script execution flow to handle high-volume batch processing within the strict execution time limits.",
+        "Deployed a web interface allowing non-technical admins to trigger report generation and manage student data.",
+        "Implemented CI/CD using Github Actions, utilising clasp and git for local development and version control.",
+        "Wrote unit tests using Jest for an automated test suite that runs before deployment in production."
+      ]
+    },
+    {
+      "companyImage": "https://placehold.co/48x48",
+      "role": "Programming Tutor",
       "companyName": "Digimaker",
       "location": "Eastern Suburbs, VIC",
       "startDate": "October 2024",
       "endDate": "Present",
       "description": [
         "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools, achieving an average 90% in-class completion rate for my students.",
-        "Used supplied lesson sheets to break down core programming concepts, allowing students to independently complete each coding challenge.",
-        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS ...",
-        "Developed a student report generation automation using JavaScript on Google Apps Script.",
-        "Utilised clasp and the glcoud CLI tool for local development with git for version control.",
-        "Setup Github Actions for CI/CD, with automated testing using Jest for improved maintainance and less errors."
+        "Used supplied lesson sheets to break down core coding concepts, allowing students to independently learn.",
+        "Provided patient coding guidance to students when debugging, quickly identifying logic errors and bugs.",
+        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS ..."
       ]
     }
   ]
