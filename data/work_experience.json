@@ -25,11 +25,11 @@
       "endDate": "Present",
       "description": [
         "Developed the backend using Python, FastAPI, Pydantic, and SQLAlchemy, exposing APIs to the frontend.",
-        "Designed a 40-table PostgreSQL schema with optimised indexes reducing query time by 40%.",
         "Architected with Domain Driven Design (DDD) ensuring strict separation of concerns and scalability.",
         "Incorporated caching using Redis alongside vertical scaling to improve serverless performance.",
-        "Implemented secure Google Calendar sync with encrypted storage and CSRF protection.",
-        "Integrated Google Places API to aggregate external reviews alongside internal user reviews."
+        "Designed a 40-table PostgreSQL schema with optimised indexes reducing query time by 40%.",
+        "Integrated Google Places API to aggregate external reviews alongside internal user reviews.",
+        "Implemented secure Google Calendar sync with encrypted storage and CSRF protection."
       ]
     },
     {
@@ -56,10 +56,11 @@
       "startDate": "October 2024",
       "endDate": "Present",
       "description": [
-        "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools, achieving an average 90% in-class completion rate for my students.",
+        "Teaching weekly Python, Java, C & JavaScript classes to primary school students across 8 different schools.",
+        "Achieved a 90% in-class completion rate for my students by consistently keeping classes engaging and fun.",
         "Used supplied lesson sheets to break down core coding concepts, allowing students to independently learn.",
         "Provided patient coding guidance to students when debugging, quickly identifying logic errors and bugs.",
-        "Schools: Leibler Yavneh College, McKinnon PS, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS ..."
+        "Schools: McKinnon PS, Leibler Yavneh College, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS."
       ]
     }
   ]
