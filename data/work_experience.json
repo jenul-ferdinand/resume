@@ -24,12 +24,12 @@
       "startDate": "July 2025",
       "endDate": "Present",
       "description": [
-        "Developed the backend using Python, FastAPI, Pydantic, and SQLAlchemy, exposing APIs to the frontend.",
+        "Engineered the backend using FastAPI, Pydantic, and SQLAlchemy to support high-volume transactions.",
         "Architected with Domain Driven Design (DDD) ensuring strict separation of concerns and scalability.",
-        "Incorporated caching using Redis alongside vertical scaling to improve serverless performance.",
         "Designed a 40-table PostgreSQL schema with optimised indexes reducing query time by 40%.",
+        "Reduced API latency by 32% via Redis caching and optimised container resource allocation.",
         "Integrated Google Places API to aggregate external reviews alongside internal user reviews.",
-        "Implemented secure Google Calendar sync with encrypted storage and CSRF protection."
+        "Implemented secure Google Calendar sync with encrypted token storage and CSRF protection."
       ]
     },
     {
