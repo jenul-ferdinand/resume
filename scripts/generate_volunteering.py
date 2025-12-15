@@ -27,7 +27,7 @@ def parse_resume_tex(file_path: str) -> List[Dict]:
         content = file.read()
     
     # Find the volunteering section
-    volunteer_section_match = re.search(r'\\section\{\\textbf\{Volunteering\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
+    volunteer_section_match = re.search(r'\\section\{\\textbf\{Student Teams and Extracurriculars\}\}.*?\\resumeSubHeadingListStart(.*?)\\resumeSubHeadingListEnd', content, re.DOTALL)
     
     if not volunteer_section_match:
         return []
