@@ -1,0 +1,281 @@
+% !TEX root = ./resume.tex
+%-------------------------
+% Resume in Latex
+% Author : Jenul Ferdinand
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[a4paper,11pt]{extarticle}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% ---------------------------------------------------------------------------- %
+%                                 FONT OPTIONS                                 %
+% ---------------------------------------------------------------------------- %
+
+\usepackage[sfdefault]{sourcesanspro}
+\usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\renewcommand{\familydefault}{\sfdefault}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \rmfamily\fontfamily{bch}\selectfont\raggedright\large
+}{}{0em}{\vspace{-8pt}}
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+
+% ---------------------------------------------------------------------------- %
+%                                CUSTOM COMMANDS                               %
+% ---------------------------------------------------------------------------- %
+
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      #1 & #2 \\
+    \end{tabular*}\vspace{-4pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+
+% ---------------------------------------------------------------------------- %
+%                              RESUME STARTS HERE                              %
+% ---------------------------------------------------------------------------- %
+
+\begin{document}
+
+% ----------------------------------- TITLE ---------------------------------- %
+\begin{center}
+    % Name (serif Charter)
+    {\rmfamily\fontfamily{bch}\selectfont\bfseries\Huge Jenul Ferdinand} \\[4pt]
+    
+    % Contact info (sans-serif)
+    {\sffamily\small
+    +61 405 546 209 $|$ 
+    \href{mailto:jenul15ferdinand@gmail.com}{jenul15ferdinand@gmail.com} $|$ 
+    Australian Citizen}
+    
+    % Location (sans-serif)
+    {\sffamily\small Knoxfield, Victoria, 3180}
+\end{center}
+
+\section{\textbf{Summary}}
+  \resumeSubHeadingListStart
+  \item \small
+  Graduate Engineer $|$ Field Operations \& Systems Integration | Reliable and proactive professional with strong hands-on experience in Linux systems, network telemetry, and hardware-software integration. Proven leadership experience managing teams and training staff. Passionate about all things tech and loves fixing, automating, and optimising.
+  \resumeSubHeadingListEnd
+
+% --------------------------------- EDUCATION -------------------------------- %
+\section{\textbf{Education}}
+	\resumeSubHeadingListStart
+		\item
+		\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+			\small Bachelor of Computer Science at Monash University, Clayton Campus & Graduating November 2026
+		\end{tabular*}\vspace{-4pt}
+	\resumeSubHeadingListEnd
+
+% -------------------------------- EXPERIENCE -------------------------------- %
+\section{\textbf{Experience}}
+  \resumeSubHeadingListStart
+
+    \vspace{3pt}
+
+    % ! Monash Connected Autonomous Vehicle
+    \resumeSubheading
+    {Systems Engineer}{August 2025 -- Present}
+    {Monash Connected Autonomous Vehicle (student team)}{Clayton, VIC}
+      \resumeItemListStart
+        \resumeItem{Building a SIL simulation framework bridging the ROS 2 autonomous vehicle stack with a ride-hailing backend.}
+        \resumeItem{Engineered vehicle telemetry systems, providing data transmission between vehicle and monitoring software.}
+        \resumeItem{Managed hardware-software integration, diagnosing connection faults with ROS 2 and external network interfaces.}
+        \resumeItem{Authored a technical proposal and feasibility analysis, utilising the Spiral Model to mitigate integration risks.}
+        \resumeItem{Architecting the data pipeline, utilising event streaming for vehicle route performance and emissions data.}
+      \resumeItemListEnd
+
+    \vspace{3pt}
+
+	  % ! Computer Science Intern - Hawthorn FC
+	  \resumeSubheading
+    {Intern}{August 2025 -- October 2025}
+    {Hawthorn Football Club}{Mulgrave, VIC}
+      \resumeItemListStart
+        \resumeItem{Engineered a workflow optimisation solution to facilitate analysis for the coaches, supporting match-day preparation.}
+        \resumeItem{Facilitated the integration of enterprise cloud systems, enabling conversational AI with transactional AFL data.}
+        \resumeItem{Conducted technical training sessions for non-technical coaching staff, simplifying complex topics.}
+        \resumeItem{Collaborated with the GM of Tech \& Data to identify process bottlenecks and deliver automated tooling solutions.}
+        \resumeItem{Reduced manual data processing time for analysts by developing efficient sub-agent workflows for reporting.}
+      \resumeItemListEnd
+
+    \vspace{3pt}
+
+    % ! Automation Developer - Digimaker
+    \resumeSubheading
+    {GAS Automation Developer}{March 2025 -- June 2025}
+    {Digimaker}{Eastern Suburbs, VIC}
+      \resumeItemListStart
+        \resumeItem{Identified a bottleneck in the student reporting process and engineered an automation to generate PDF reports.}
+        \resumeItem{Wrote JavaScript code in the Google Apps Script (GAS) environment for a zero-cost student reporting solution.}
+        \resumeItem{Optimised script execution flow to handle high-volume batch processing within the strict execution time limits.}
+        \resumeItem{Deployed a web interface allowing non-technical admins to trigger report generation and manage student data.}
+        \resumeItem{Implemented CI/CD using Github Actions, utilising clasp and git for local development and version control.}
+      \resumeItemListEnd
+
+    \vspace{3pt}
+
+    % ! Monash Innovation Guarantee
+		\resumeSubheading
+		{Intern}{January 2025}
+		{UNICEF}{Docklands, VIC}
+			\resumeItemListStart
+        \resumeItem{Designed a secure SaaS architecture for UNICEF's uSupport platform to integrate third-party services.}
+        \resumeItem{Modeled API integration flows to enable secure data exchange between external apps and the core platform.}
+        \resumeItem{Presented the technical roadmap to stakeholders, awarded with a High Distinction for the solution's feasibility.}
+			\resumeItemListEnd
+
+    \vspace{3pt}
+
+    % ! Programming Tutor - Digimaker
+    \resumeSubheading
+    {Technology Mentor}{October 2024 -- Present}
+    {Digimaker}{Eastern Suburbs, VIC}
+      \resumeItemListStart
+      	\resumeItem{Delivered technical training to diverse groups, breaking down complex logic into clear, actionable instructions.}
+        \resumeItem{Acted as a key escalation point for students, troubleshooting logic errors and debugging code in real-time.}
+        \resumeItem{Maintained high service standards with a high retention rate, ensuring positive parent/student relationships.}
+        \resumeItem{Schools: McKinnon PS, Leibler Yavneh College, Ruskin Park PS, Mulgrave PS, Burwood East PS, Greythorn PS.}
+      \resumeItemListEnd
+
+    \vspace{3pt}
+
+    % ! WIRED (Faculty of Information Technology)
+		\resumeSubheading
+    {Project Lead}{May 2024 -- June 2025}
+    {Faculty of Information Technology Society (student society)}{Clayton, VIC}
+			\resumeItemListStart
+				\resumeItem{Directed a team of 8 staff/students, managing rosters, timelines, and deliverables using Jira.}
+				\resumeItem{Coordinated logistics for student projects, ensuring resources were delivered on time and within scope.}
+        \resumeItem{Facilitated a productive and inclusive team environment, prioritising time management to fit the busy uni schedule.}
+				\resumeItem{Oversaw project timelines using Jira, defining \& monitoring issues, epics, and sprint goals.}
+			\resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+% --------------------------------- PROJECTS --------------------------------- %
+\section{\textbf{Projects}}
+	\resumeSubHeadingListStart
+
+    % ! Markdown to Data Project
+		\resumeProjectHeading 
+			{Chariot: A SIL Simulation Framework for Autonomous Vehicle Ride-Hailing}{}
+			\resumeItemListStart
+				\resumeItem{Associated with Monash Connected Autonomous Vehicle.}
+			\resumeItemListEnd
+
+    \vspace{3pt}
+    
+    % ! Markdown to Data Project
+		\resumeProjectHeading 
+			{md2data: A Tool to Convert Markdown Documents into Structured Data}{\href{https://www.npmjs.com/package/md2data}{\textit{\underline{\smash{npm}}}} \ \ \href{https://pypi.org/project/md2data/}{\textit{\underline{\smash{PyPi}}}} \ \
+      \href{https://crates.io/crates/md2data}{\textit{\underline{Crates.io}}} \ \
+      \href{https://github.com/jenul-ferdinand/md2data}{\textit{\underline{GitHub}}}}
+			\resumeItemListStart
+				\resumeItem{A high-performance library and CLI tool to convert markdown into JSON, TOML, YAML, or XML.}
+        \resumeItem{Wrote parsing logic in Rust by constructing an Abstract Syntax Tree, utilising the pulldown-cmark pull parser.}
+			\resumeItemListEnd
+
+    \vspace{3pt}
+		
+		% ! MonSTAR
+		\resumeProjectHeading 
+			{MonSTAR: Monash University's Open-Source Course Review and Search Platform}{\href{https://monstar.wired.org.au}{\textit{\underline{Website}}} \ \ \href{https://github.com/wiredmonash/monstar}{\textit{\underline{GitHub}}}}
+			\resumeItemListStart
+				\resumeItem{A digital platform built for Monash University students to easily browse and review subjects and electives.}
+        \resumeItem{Maintains average 1,000+ monthly visits with official endorsement from Monash University's IT Faculty.}
+			\resumeItemListEnd
+			
+	\resumeSubHeadingListEnd
+
+% ------------------------ LICENSES AND CERTIFICATIONS ----------------------- %
+\section{\textbf{Licenses}}
+  \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{
+      \item{
+        \begin{tabularx}{\linewidth}{@{}l@{\hspace{0.5cm}}X@{}}
+          \textit{Australian Computer Society} & Associate Member \\[2pt]
+          \textit{Victorian Government} & Working with Children Check \\[2pt]
+          \textit{Victorian Driver's License}
+        \end{tabularx}
+      }
+    }
+  \end{itemize}
+% ----------------------------- TECHNICAL SKILLS ----------------------------- %
+\section{\textbf{Technical Skills}}
+ \begin{itemize}[leftmargin=0.05in, label={}]
+    \small{\item{
+     \textit{Systems \& Tools:}{ Linux (Ubuntu/Debian), Bash Scripting, Network Telemetry (WebSockets/HTTP), AWS/GCP, Git}\\
+     \textit{Core Competencies:}{ Technical Troubleshooting, Team Leadership, Stakeholder Communication, System Integration.}\\
+     \textit{Languages:}{ Python, Rust, TypeScript (Scripting \& Automation Focused)}
+    }}
+ \end{itemize}
+
+\end{document}
