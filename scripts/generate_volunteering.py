@@ -126,7 +126,7 @@ def main():
     json_path = 'data/volunteering.json'
     existing_images = load_existing_company_images(json_path)
     
-    experiences = parse_resume_tex('resume.tex')
+    experiences = parse_resume_tex('jobs/everything/resume.tex')
     
     # Preserve existing company images or use placeholder for new companies
     for exp in experiences:
